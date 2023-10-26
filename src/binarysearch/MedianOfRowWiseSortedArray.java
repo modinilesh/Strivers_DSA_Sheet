@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class MedianOfRowWiseSortedArray {
 	
+	//Bruteforce approach
 	public static int median(int matrix[][], int r, int c) {
 		int arr[] = new int[r*c] ;
 		int p = 0;
