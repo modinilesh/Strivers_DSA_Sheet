@@ -3,6 +3,7 @@ package binarysearch;
 public class BookAllocation {
 	
 /*
+ 	//min(Maximum pages)
 	//Let's understand the line : Maximum no. of pages allocated should be the minimum
 	//eg. books with pages : [25, 46, 28, 49, 24], students (m) = 4
 	// each student should have atleast one book, so lets select 49 pages so that all students can have atleast 1 book
@@ -116,8 +117,8 @@ public class BookAllocation {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] arr = {12, 34, 67, 90};
-        int m = 2;
+		int[] arr = {1,2,8,4,9};
+        int m = 3;
         int ans = bookAllocation2(arr, m);
         System.out.println("The answer is: " + ans);
 
