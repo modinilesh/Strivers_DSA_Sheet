@@ -128,14 +128,7 @@ public class MinimumDistanceFromSourceToDestination {
         addEdge(adj, 5, 6);
         addEdge(adj, 6, 7);
         int source = 2, dest = 6;
-        
- 
-    // function to form edge between two vertices
-    // source and dest
- 
-		
-		
-		
+  
 		System.out.println(adj);
 		System.out.println("Shortest Path :" + minDistanceBFS(v, source, dest, adj));
 //		System.out.println("Shortest Distance :" + (minDistanceBFS(v, source, dest, adj).size() - 1));
